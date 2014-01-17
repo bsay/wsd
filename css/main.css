@@ -9,17 +9,25 @@ body {
 #header{
     width:960px;
     margin:0 auto;
-    background: #C8C8C8 ; 
-    text-indent:-9999999999:
+    height: 155px;
+    padding-top: 15px;
+    border: 2px black solid;
+    border-radius:10px;
+    background: #7BC6F; 
 }
 
 #navlist li {
 	float: right;
 	display: inline;
 	list-style-type: none;
-	padding-right: 20px;
-    padding-bottom: 10px; 
-    padding-left:20px;
+    text-align: center;
+	
+}
+.nav{
+    float:right;
+    width: 80px;
+    height:40px;
+    padding: 10px;
 }
 
 #content{
@@ -37,14 +45,14 @@ h1{
 
 #logo{
     float:left;
-    background:#C8C8C8;
+    padding-top: 40px;
+    
 }
 
 
 
 
 h2 {
-    text-align:center;
     font-size: 2em;
     text-decoration:underline;
     font-size:2em;
@@ -65,15 +73,41 @@ h2 {
     border:1px gray solid;
 }
 
-#recent{
+#featured{
+    
     float:left;
-    width:720px
+    border: 2px gray solid;
+    padding: 10px;
 }
 
+
+
+#a1img{
+    float: left;
+}
+
+#a1p{
+    height: 180px;
+    padding-top:10px;
+    line-height: 1.4em;
+ 
+}
+#recent{
+    float:left;
+    margin-top:100px;
+    width: 720px;
+}
+
+#recenth2{
+    text-align: center;
+    font-weight: bold;
+}
 #memberfeatures{
     text-align:center;
     text-emphasis:
 }
+
+
 
 ul#gallery {
     width:960px;
@@ -88,6 +122,10 @@ ul#gallery {
     padding-right: 40px;
 }
 
+#gallerydec{
+    clear:both;
+    padding-top:40px;
+}
 footer{
     width:960px;
     margin: 0 auto;
