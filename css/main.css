@@ -167,20 +167,25 @@ h3{
 form{
     width:25%;
     height:auto;
-    margin-left:15%;
+    margin-left: 15%;
     padding:.5em;
-    border: 2px black solid;
-    
+    margin-bottom: 20%;
+    border: 2px black solid;   
 }
+
+label, input{
+    display:inline-block;
+}
+label{
+    width:50%;
+    text-align:right; 
+}
+
 
 footer{
     width:100%;
     margin: 0 auto;
-}
-
-
-
-#foot{
-    clear:both;
     background:#FF8C31;
 }
+
+
