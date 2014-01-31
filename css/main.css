@@ -131,10 +131,9 @@ article{
 }
 
 .galleryimg{
-    width: 20%;
-    display:block; 
+    display: inline-grid; 
     align-items:center;
-    margin:2%
+    margin: 2%;
         
 
 }
@@ -142,6 +141,38 @@ article{
 #gallerydec{
     clear:both;
 }
+
+table{  
+    border: 1px black solid;
+    margin-right: 15%;
+    float:right;
+    margin-bottom:25%;
+}
+th{
+    text-transform:uppercase;
+    text-align:left;
+    
+}
+
+td{
+    border-collapse:collapse;
+    padding: .5em;
+    
+}
+
+h3{
+    text-align:center;
+}
+
+form{
+    width:25%;
+    height:auto;
+    margin-left:15%;
+    padding:.5em;
+    border: 2px black solid;
+    
+}
+
 footer{
     width:100%;
     margin: 0 auto;
@@ -150,5 +181,6 @@ footer{
 
 
 #foot{
+    clear:both;
     background:#FF8C31;
 }
